@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Padauk', sans-serif; */
+
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Padauk', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all 3s ease-in-out;
+    font-family: 'Padauk', sans-serif;
+}
+nav .animate__animated{
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    left: 22%;
+    top: 4%;
+    
+    
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+    height: 10vh;
+    transition: all 3s ease-in-out;
+}
+
+nav .logo img {
+    size: 14px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 2%;
+    top: -8%;
+    transition: all 3s ease-in-out;
+}
+
+nav .logo img:hover{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Padauk', sans-serif;
+    
+}
+
+nav .menu a {
+    width: 25%;
+    padding: 6px 36px;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav .menu a:hover{
+    background: #fff;
+    color: #111;
+}
+
+nav .menu a:first-child{
+    background: rgb(152, 250, 4);
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Padauk', sans-serif;
+}
+
+
+section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 1px 5px black;
+}
+
+section h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-shadow: 2px 1px 5px black;
+}
+
+section p {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+section .btnone {
+    background: #fff;
+    color: #000;
+    
+}
+section .btntwo {
+    background: rgb(152, 250, 4);
+    color: #000;
+
+}
+
+section .btnone:hover{
+    background: #00b894;
+    color: #fff;
+}
+section .btntwo:hover{
+    background: #fff;
+    color: #000;
+}
+
+.change_content::after{
+    content: '';
+    background-image: '';
+    animation: changetext 20s infinite linear;
+    color:  #00b894;
+
+}
+
+@keyframes changetext{
+    15%{content: "want best quality product";}
+    30%{content: "For Your sweet Home";}
+    45%{content: "For Your Washroom";}
+    60%{content: "Make your floor beautiful";}
+    75%{content: "want to impress relatives";}
+    90%{content: "make your kitchen beautiful";}
+    100%{content: "Visit our shop";}
+}
+.sahil {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url('./sweetHome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Mate SC', serif;
+
+}
+
+.sharik {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Mate SC', serif;
+
+}
+
+.sharik h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-shadow: 2px 1px 5px black;
+}
+
+.sharik p {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 25px;
+    text-shadow: 2px 1px 5px black;
+}
+
+.sharik a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.sharik .btnthree {
+    background: #fff;
+    color: #000;
+}
+
+.sharik .btnthree:hover{
+    background: black;
+    color: #fff;
+}
+
+
+
